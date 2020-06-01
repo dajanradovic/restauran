@@ -1,0 +1,241 @@
+
+
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+        <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+      <!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="myScript.js"></script>
+      <!--  <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>-->
+    </head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 samivrsak">
+                <h6><i><u>Leather John's Inn</u></i></h6>
+                <span><i>Small bar management interface</i></span>
+                <span class="time"></span>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pocetni">
+    <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-2 izbornik">
+
+                        <button type="button" id="prviButon" class="btn btn-secondary btn-lg mojbuton border border-warning" style="margin-top: 50px;" >Nova narudzba</button>
+
+                        <button type="button" id="listaNarudzbi" class="btn btn-secondary btn-lg mojbuton border border-warning">Lista narudzbi</button>
+
+                        <button type="button" id="usersList" class="btn btn-secondary ostali btn-lg mojbuton border border-warning">Users</button>
+                        
+                  <div id="loggedInAs" style="color: white; font-size: 10px;"></div>
+                  <!--<div><button type="button" class="btn btn-warning btn-sm">Log out</button></div>-->
+                </div>
+
+
+                        <div class="col-md-2 druginiz">
+
+                                <button type="button" class="btn btn-secondary btn-lg mojbuton border border-warning" id="narudzba" style="margin-top: 50px;" >Beer</button>
+
+                                <button type="button" class="btn btn-secondary btn-lg mojbuton border border-warning" id="narudzbakave">Coffee</button>
+                                <button type="button" class="btn btn-secondary btn-lg mojbuton border border-warning" id="bezalkoholnapica">Non-alcoholic drinks</button>
+                                <button type="button" class="btn btn-secondary btn-lg mojbuton border border-warning" id="alkoholnapica">Alcoholic drinks</button>
+								<button type="button" class="btn btn-secondary btn-lg mojbuton border border-warning" id="snacks">Snacks</button>
+
+
+                        </div>
+
+                            <div class="col-md-1">
+
+                 <div class="vanjskilayer"><div class="pivo" name="beer 0,3l"></div><span class="spantext">0,3l beer</span></div>
+							   <div class="vanjskilayer2"><div class="kava" name="smallCoffee"></div><span class="spantextkava">Small coffee</span></div>
+							    <div class="vanjskilayer3"><div class="bezalkoholno" name="Tea"></div><span class="spantextbezalkoholno">Tea</span></div>
+								 <div class="vanjskilayer4"><div class="bezalkoholno6" name="Wine 0,3l"></div><span class="spantextbezalkoholno6">Wine 0,3l</span></div>
+								  <div class="vanjskilayer5"><div class="sandwich" name="Sandwich"></div><span class="spantextsandwich">Sandwich</span></div>
+                            </div>
+                            <div class="col-md-1">
+
+
+                 <div class="vanjskilayer"><div class="pivo" name="beer 0,5l"></div><span class="spantext">0,5l beer</span></div>
+								 <div class="vanjskilayer2"><div class="kava" name="bigCoffee"></div><span class="spantextkava">Big coffee</span></div>
+								 <div class="vanjskilayer3"><div class="bezalkoholno2" name="cola"></div><span class="spantextbezalkoholno">Cola</span></div>
+								 <div class="vanjskilayer4"><div class="bezalkoholno6" name="Wine 0,5l"></div><span class="spantextbezalkoholno6">Wine 0,5l</span></div>
+								 <div class="vanjskilayer5"><div class="hotdog" name="Hot-dog"></div><span class="spantexthotdog">Hot-dog</span></div>
+                             </div>
+
+							 <div class="col-md-1">
+
+
+                                <div class="vanjskilayer" style="visibility:hidden;"></div>
+								 <div class="vanjskilayer2"><div class="kava" name="whiteCoffee"></div><span class="spantextkava">White coffee</span></div>
+								 <div class="vanjskilayer3"><div class="bezalkoholno3" name="Orange Juice"></div><span class="spantextbezalkoholno3">Orange juice</span></div>
+								  <div class="vanjskilayer4"><div class="bezalkoholno7" name="Bottled Wine"></div><span class="spantextbezalkoholno7">Bottled wine</span></div>
+								   <div class="vanjskilayer5"><div class="hotdog1" name="Toast"></div><span class="spantexthotdog1">Toast</span></div>
+
+
+                             </div>
+
+							 <div class="col-md-1">
+
+
+                                <div class="vanjskilayer" style="visibility:hidden;"></div>
+								 <div class="vanjskilayer2"><div class="kava" id="macchiato1" name="macchiato"></div><span class="spantextkava" >Macchiato</span></div>
+								 <div class="vanjskilayer3"><div class="bezalkoholno4" name="Hot Chocolate"></div><span class="spantextbezalkoholno4">Hot Chocolate</span></div>
+								  <div class="vanjskilayer4"><div class="bezalkoholno8" name="Vodka"></div><span class="spantextbezalkoholno8">Vodka</span></div>
+                             </div>
+
+							 <div class="col-md-1">
+
+
+                                <div class="vanjskilayer" style="visibility:hidden;"></div>
+								 <div class="vanjskilayer2"><div class="kava" name="capuccino"></div><span class="spantextkava">Capuccino</span></div>
+								  <div class="vanjskilayer3"><div class="bezalkoholno5" name="Mineral Water"></div><span class="spantextbezalkoholno4">Mineral water</span></div>
+								   <div class="vanjskilayer4"><div class="bezalkoholno9" name="Whiskey"></div><span class="spantextbezalkoholno9">Whiskey</span></div>
+
+                             </div>
+
+                                <div class="izracun">
+                                        <table class="table mytable">
+                                                <thead style="text-align:center;">
+                                                  <tr>
+                                                    <th scope="col">Item</th>
+                                                    <th scope="col">Quantity</th>
+                                                    <th scope="col">Price</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody id="prviTBody">
+
+                                                </tbody>
+                                              </table>
+
+                                <button type="button" id="tblbutton" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalScrollable">
+                                  Table
+                                </button>
+                                    <hr class="totalcrta">
+                                    <span class="pdv">PDV 25%</span>
+                                    <span class="total"><b>TOTAL</b></span>
+                                    <span class="iznosprijeporeza">0</span>
+                                    <span class="totaliznos">0</span>
+                                    <button class="btn confirm"></button>
+                                    <button class="btn delete"></button>
+
+                             </div>
+
+
+                             <div class="podlogaZaListuNarudzbi">
+
+<!-- dio generiran kroz js kod, lista narudzbi-->
+
+</div>
+
+<div class="podlogaZaPodatkeOUseru">
+
+  
+</div>
+
+
+      <!--modal za izbor stola -->
+        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Pick a table</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="color:white !important;">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 1"></span><span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 2"  ></span><span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 3">
+      </span><span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 4"></span><span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 5"></span><span class="slikaStola" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Table 6"></span></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" id="confirmtablebtn" data-dismiss="modal" class="btn btn-primary">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--modal za krajnju potvrdu narudzbe i izbor placanja -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Payment method</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="cash" checked>
+  <label class="form-check-label" for="inlineRadio1">Cash</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="card">
+  <label class="form-check-label" for="inlineRadio2">Card</label>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        <button type="button" id="finalOrderComplete" data-dismiss="modal" class="btn btn-primary">Complete the order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        
+
+
+
+<!--login modal -->
+
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header loginBody">
+        <h5 class="modal-title" id="exampleModalLabel">Login to start using application</h5>
+             
+      </div>
+      <div class="modal-body loginBody" style="display:inline-block;">
+           <div class="form-group loginBody">
+            <label for="username" class="col-form-label" style="color: white;">Username:</label>
+            <input type="text" class="form-control" name="username" id="username">
+          </div>
+          <div class="form-group loginBody" style="text-align: center;">
+            <label for="password" class="col-form-label" style="color: white;">Password:</label>
+            <input type="password" class="form-control" style="margin: 0 auto;" name="password" id="password">
+          </div>
+        
+      </div>
+      <div class="modal-footer loginBody">
+         <button type="button" id="loginConfirm"  class="btn btn-primary">Log-in</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+
+
+
+
+</html>

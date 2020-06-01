@@ -1,0 +1,838 @@
+html{
+
+    width: 100%;
+}
+
+.samivrsak {
+
+    background-color: black;
+    height: 30px;
+    width: 100%;
+}
+
+.time{
+
+  position:fixed;
+  left: 600px;
+}
+
+.izbornik {
+
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    z-index:1;
+}
+
+.table{
+    text-align: right;
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+.mojbuton{
+background-color: black;
+margin-bottom: 10px;
+text-align: center;
+width: 80%;
+height: 100px;
+
+
+}
+
+h6{
+    text-decoration: italic;
+    color: #ffc107;
+    font-size: 20px;
+    display: inline-block;
+    clear: both;
+}
+span{
+    color: #ffc107 !important;
+    z-index: 1;
+    position: relative;
+    float: right;
+}
+
+.ponudenapica{
+
+    display:none;
+}
+.crtapoveznica{
+
+    background-color: #ffc107;
+    width: 68px;
+    position: absolute;
+    z-index:3;
+    top: 115px;
+    left: 178px;
+    display:none;
+}
+
+
+
+
+
+
+.pocetni{
+    width: 100%;
+    background-image: url(images/bartable1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:2;
+
+
+}
+
+.pivo{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/beer4.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.vanjskilayer{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-top:65px;
+    display:none;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.vanjskilayer:hover{
+    position: relative;
+    top: -10px;
+	border: 1px solid red;
+}
+
+
+.spantext{
+
+    color: white !important;
+    font-size: 14px;
+    bottom: 50px;
+    right: 15px;
+    display: inline-block;
+
+}
+
+.spantextkava{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 10px;
+
+    display: inline-block;
+
+
+}
+
+.druginiz{
+
+    display:none;
+}
+
+.crtapoveznica2{
+
+    background-color: #ffc107;
+    width: 68px;
+    position: absolute;
+    z-index:3;
+    top: 115px;
+    left: 412px;
+    display:none;
+
+}
+
+.crtapoveznica3{
+
+    background-color: #ffc107;
+    width: 30px;
+    position: absolute;
+    z-index:3;
+    top: 115px;
+    left: 570px;
+    display:none;
+
+}
+
+.vanjskilayer2{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-top:170px;
+    display:none;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.vanjskilayer2:hover{
+    position: relative;
+    top: -10px;
+	border: 1px solid red;
+}
+
+.vanjskilayer3{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-top:285px;
+    display:none;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.vanjskilayer3:hover{
+    position: relative;
+    top: -10px;
+	border: 1px solid red;
+}
+
+.vanjskilayer4{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-top:400px;
+    display:none;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.vanjskilayer4:hover{
+    position: relative;
+    top: -10px;
+	border: 1px solid red;
+}
+
+.vanjskilayer5{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-top:505px;
+    display:none;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.vanjskilayer5:hover{
+    position: relative;
+    top: -10px;
+	border: 1px solid red;
+}
+
+.kava{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/coffee2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/tea.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno2{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/cola.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno3{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/juice.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno4{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/hotchocolate.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.bezalkoholno5{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/mineralwater.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno6{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/wineglass.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.bezalkoholno7{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/wine.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno8{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/vodka.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bezalkoholno9{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/whiskey.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.sandwich{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/sandwich.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.hotdog{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/hot-dog.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.hotdog1{
+
+    width: 100%;
+    height: 100px;
+    background-image: url(images/toast.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+
+.spantextbezalkoholno{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 30px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno3{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 10px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno4{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 4px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno6{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 20px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno7{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 10px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno8{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 20px;
+
+    display: inline-block;
+
+
+}
+
+.spantextbezalkoholno9{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 20px;
+
+    display: inline-block;
+
+
+}
+
+.spantextsandwich{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 20px;
+
+    display: inline-block;
+
+
+}
+
+.spantexthotdog{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 20px;
+
+    display: inline-block;
+
+
+}
+
+.spantexthotdog1{
+
+    color: white !important;
+    font-size: 12px!important;
+    bottom: 50px;
+    right: 25px;
+
+    display: inline-block;
+
+
+}
+
+.izracun{
+
+    width:300px;
+	min-height:700px;
+	background-color: black;
+	position: fixed;
+	right: 20px;
+	top: 40px;
+	opacity: 0.8;
+
+}
+
+.mytable{
+
+    width:290px;
+    right: 33px;
+    position:relative;
+    color: white;
+
+}
+
+.total{
+
+position: fixed;
+color: white !important;
+right: 250px;
+bottom: 50px;
+font-size:20px;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.pdv{
+
+    position: fixed;
+    color: white !important;
+    right: 150px;
+    bottom: 80px;
+    font-size:14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+
+.totalcrta{
+    position: fixed;
+    color: white !important;
+    right: 40px;
+    bottom: 110px;
+    background-color: white !important;
+    width: 270px;
+    height: 1.5px;
+
+
+}
+
+.iznosprijeporeza{
+  position: fixed;
+  color: white !important;
+  right: 60px;
+  bottom: 100px;
+  font-size:14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+
+}
+.totaliznos{
+  position: fixed;
+  color: white !important;
+  right: 60px;
+  bottom: 50px;
+  font-size:14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+
+}
+
+.confirm{
+
+  background-image: url(images/confirm2.png);
+width: 50px;
+height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  background-position: center;
+}
+
+.confirm:hover{
+
+  border: 2px solid green;
+}
+
+.delete{
+
+  background-image: url(images/delete1.png);
+width: 40px;
+height:20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  bottom: 18px;
+  right: 280px;
+  background-position: center;
+
+}
+
+.delete:hover{
+
+  border: 2px solid red;
+}
+
+span.glyphicon.glyphicon-minus{
+
+color: white !important;
+
+  }
+
+.material-icons{
+font-size: 16px;
+padding-right: 10px;
+vertical-align: bottom;
+cursor: pointer;
+
+}
+
+.material-icons:nth-child(2){
+font-size: 16px;
+padding-left: 10px;
+top:15px;
+vertical-align: bottom;
+
+}
+
+/*.izborStola{
+
+  width:250px;
+  height:100px;
+  background-color: black;
+  opacity: 0.6;
+  position: fixed;
+  bottom: 150px;
+  left: 300px;
+  text-align: center;
+
+}*/
+
+.slikaStola{
+  margin-left: 20px;
+  margin-right: 20px;
+  width:40px;
+  height: 40px;
+  background-image: url(images/table1bijeli.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  opacity:0.4;
+
+
+}
+
+.modal-body{
+
+  background-color: black;
+  display: flex;
+  border-top: 1px solid #ffc107;
+  z-index:2000;
+
+}
+
+.modal-header{
+  background-color: black;
+  border-bottom: 0px;
+
+}
+
+.modal-footer{
+
+  background-color: black;
+  border-top: 1px solid #ffc107;
+}
+
+.modal-title{
+
+  color: white;
+}
+
+.modal-content{
+border: 1px solid #ffc107;
+
+}
+
+#tblbutton{
+
+  padding:1px;
+  position:fixed;
+  bottom:130px;
+  right: 270px;
+}
+
+.podlogaZaListuNarudzbi{
+
+  position: fixed;
+  display: none;
+  width:1050px;
+  height:635px;
+  background-color: black;
+  right: 90px;
+  top: 80px;
+  opacity: 0.8;
+  overflow-y: auto;
+
+}
+
+#collapseA{
+
+  width: 100%;
+  height: 30px;
+
+}
+
+#tableA{
+width: 100%;
+height: inherit;
+background-color: black !important;
+margin-left: 0px;
+}
+
+a#collapseA.btn.btn-primary{
+  padding: 0px;
+  background-color: black;
+  color: white;
+  //height: 25px;
+}
+
+.redakTable{
+
+  width:100%;
+  height: 25px;
+  color: white;
+}
+
+.tableNumber{
+    border-top: 0px !important;
+  width: 60px;
+  text-align: left;
+  padding: 0px;
+}
+
+.orderDate{
+  border-top: 0px !important;
+  width: 30%;
+  text-align: left;
+  padding: 0px;
+}
+
+.orderStatus{
+  border-top: 0px !important;
+  width: 30%;
+  text-align: center;
+  background-color: red;
+  border-radius: 3px;
+  color: black;
+  font-weight: bold;
+}
+
+.OrderId{
+  border-top: 0px !important;
+  width: 60px;
+  padding:0px;
+  text-align: left;
+}
+
+.tableSListom{
+
+  width: 100%;
+}
+
+.crtaIznad{
+
+  border-top: 1px solid black;
+}
+
+#exampleModal1{
+
+  color: white;
+}
+
+#loginModal{
+
+  width: 350px;
+  left: 35%;
+  
+  height: 450px;
+}
+.loginBody{
+text-align: center;
+
+
+}
+div.form-group.loginBody{
+
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+#loginConfirm{
+
+  margin: 0 auto;
+}
+
+div.modal-header.loginBody{
+  margin-left: 0px;
+  margin: 0 auto;
+  background-color: black;
+  width: 100%;
+}
+
+#exampleModalLabel{
+
+  margin: 0 auto;
+}
+
+.podlogaZaPodatkeOUseru{
+
+  position: fixed;
+  
+  width:1050px;
+  height:635px;
+  background-color: black;
+  right: 90px;
+  top: 80px;
+  opacity: 0.8;
+  display:none;
+
+}
+
+.tablicausera{
+
+  width: 100%;
+  text-align: left;
+  margin-left: 0px;
+  background-color: black;
+  
+
+}
+
+#lastLoginData{
+
+  min-width: 110px;
+
+}
+
+.popisVremena{
+
+  font-size: 12px;
+  padding: 0px;
+}
