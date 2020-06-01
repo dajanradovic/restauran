@@ -720,6 +720,15 @@ var UIcontroller=(function(){
 })();
 
 var mainappcontroller=(function(products, UIcontroller, orders1){
+var arrayid=-1;
+  var c;
+  var completeOrderId=0;
+  var orderId;
+  var tajStatusButon;
+  let username1;
+  var password;
+  var jebomajku="dajan";
+
   $("#loginConfirm").click(loginConfirmModal);
   function loginConfirmModal(){
 
@@ -755,14 +764,7 @@ var mainappcontroller=(function(products, UIcontroller, orders1){
 
 
   
-  var arrayid=-1;
-  var c;
-  var completeOrderId=0;
-  var orderId;
-  var tajStatusButon;
-  let username1;
-  var password;
-  var jebomajku="dajan";
+  
   
 
   
