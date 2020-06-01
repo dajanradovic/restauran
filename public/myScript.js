@@ -720,15 +720,6 @@ var UIcontroller=(function(){
 })();
 
 var mainappcontroller=(function(products, UIcontroller, orders1){
-var arrayid=-1;
-  var c;
-  var completeOrderId=0;
-  var orderId;
-  var tajStatusButon;
-  let username1;
-  var password;
-  var jebomajku="dajan";
-
   $("#loginConfirm").click(loginConfirmModal);
   function loginConfirmModal(){
 
@@ -766,7 +757,14 @@ var arrayid=-1;
   
   
   
-
+      var arrayid=-1;
+      var c;
+      var completeOrderId=0;
+      var orderId;
+      var tajStatusButon;
+      let username1;
+      var password;
+      var jebomajku="dajan";
   
   
 
@@ -1466,7 +1464,7 @@ $(".vanjskilayer5").slideDown(600);
 
 
 
-});
+
 
 
 var orders1 = (function(){
@@ -1579,3 +1577,4 @@ function date (){
 
 })();
 
+});
